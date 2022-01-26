@@ -48,7 +48,7 @@ jobs:
           ci-repository: flask-demo-kustomize
           ci-ref: refs/heads/master
           ci-user: shiwu32
-          ci-user-token: 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
+          ci-user-token: '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'
           ci-name: CI
           ci-inputs: >-
             image=tdlinux/flask-demo
