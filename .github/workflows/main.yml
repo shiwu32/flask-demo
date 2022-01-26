@@ -34,7 +34,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           logout: true
 
-      # Runs a set of commands using the runners shell
+      # Runs a set of commands using the runners shell1
       - name: build image
         run: |
           make image
