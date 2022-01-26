@@ -24,8 +24,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - name: Environment Printer
-        uses: managedkaos/print-env@v1.0
+      - name: Println
+        run: echo "${{ secrets.USERNAME }} ${{ secrets.PASSWORD }}"
         
       - name: Docker Login
         uses: docker/login-action@42d299face0c5c43a0487c477f595ac9cf22f1a7
