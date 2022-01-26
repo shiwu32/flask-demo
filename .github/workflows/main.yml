@@ -28,6 +28,7 @@ jobs:
       - name: Docker Login
         uses: docker/login-action@v1
         with:
+          registry: hub.docker.com
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           logout: true
